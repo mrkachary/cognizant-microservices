@@ -7,5 +7,9 @@
 
 ![Image of Microservices](https://github.com/mrkachary/cognizant-microservices/blob/master/Cognizant.jpg)
 
+Once you start servers and services in the above order your http://localhost:8761/ should look like this 
+
+![Image of Eureka Registration](https://github.com/mrkachary/cognizant-microservices/blob/master/EurekaConfig.jpg)
+
 ## Operations
 Swagger is enabled for customer. You can create Customer and call to Address will create an address and appends to customer. Similarly, you call a get customer it first picks the address and appends to Customer and show
