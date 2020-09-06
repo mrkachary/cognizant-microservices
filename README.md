@@ -7,7 +7,7 @@
 
 ![Image of Microservices](https://github.com/mrkachary/cognizant-microservices/blob/master/Cognizant.jpg)
 
-Once you start servers and services in the above order your http://localhost:8761/ should look like this 
+Once you start servers and services in the above order your [Eureka Server](http://localhost:8761/) should look like this 
 
 ![Image of Eureka Registration](https://github.com/mrkachary/cognizant-microservices/blob/master/EurekaConfig.JPG)
 
