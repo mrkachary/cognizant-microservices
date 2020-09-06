@@ -1,8 +1,8 @@
 # cognizant-microservices
-- Step 1: Start the Eureka Server
-- Step 2: Start the zuul API gateway
-- Step 3: Start the Address Service
-- Step 4: Start the Customer Service
+- Step 1: Start the Eureka Server - This starts at port 8761
+- Step 2: Start the zuul API gateway - This starts at 8765
+- Step 3: Start the Address Service - This starts at assigned port 8081. You can have multiples deployments on different ports
+- Step 4: Start the Customer Service - This starts on default port 8080
 ## Architecture Flow for Customer Management
 
 ![Image of Microservices](https://github.com/mrkachary/cognizant-microservices/blob/master/Cognizant.jpg)
