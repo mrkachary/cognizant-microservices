@@ -10,6 +10,6 @@ import com.cognizant.microservices.model.CustomerDTO;
 @Repository
 public interface CustomerRepository extends CrudRepository<CustomerDTO, Long>{
 
-	List<CustomerDTO> findByFirstNameOrLastName(String firstName, String lastName);
+	List<CustomerDTO> findByFirstNameLikeOrLastNameLike(String firstName, String lastName);
 
 }

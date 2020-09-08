@@ -73,7 +73,7 @@ public class CustomerService {
 	 * @return
 	 */
 	public List<Customer> getAllCustomerByName(String firstName, String lastName) {
-		List<CustomerDTO> procuredCustomers = customerRepository.findByFirstNameOrLastName(firstName, lastName);
+		List<CustomerDTO> procuredCustomers = customerRepository.findByFirstNameLikeOrLastNameLike("%"+firstName+"%", "%"+lastName+"%");
 		List<Customer> customers = new ArrayList<Customer>();
 
 		for(CustomerDTO procuredCustomer : procuredCustomers) {
